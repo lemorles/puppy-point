@@ -1,0 +1,78 @@
+.card {
+  border: 1px solid #c3c6ce18;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.id {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flexCard {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.nameEmail {
+  flex-direction: column;
+  width: 300px;
+}
+
+/*Hover*/
+.card:hover {
+  border-color: rgb(238, 98, 47);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card_button {
+  transform: translate(-50%, 50%);
+}
+
+.buttonsSearch {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+
+.paginacion {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image {
+    margin-top: 5px;
+  }
+  .id {
+    flex-direction: row;
+    width: 100%;
+    background-color: #f6ad55;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 2px 0;
+  }
+  .flexCard {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .nameEmail {
+    text-align: center;
+  }
+}

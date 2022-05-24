@@ -1,0 +1,55 @@
+.container {
+  margin-top: 2.25rem; /* 36px */
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  color: rgb(107 114 128);
+  font-weight: 700;
+}
+.btn2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.span {
+  margin-left: 0.5rem; /* 8px */
+  margin-right: 0.5rem; /* 8px */
+  color: rgb(75 85 99);
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+.dayName {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  text-align: center;
+  padding-top: 0.25rem; /* 4px */
+  padding-bottom: 0.25rem; /* 4px */
+}
+.btn3 {
+  padding-top: 0.25rem; /* 4px */
+  padding-bottom: 0.25rem; /* 4px */
+  width: 100%;
+  border: none;
+  background: none;
+}
+.dayNum {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.toDay {
+  background-color: rgb(59 130 246);
+  border-radius: 9999px;
+  color: rgb(255 255 255);
+}
+.daySelect {
+  background-color: rgb(219 234 254);
+  font-weight: 700;
+  border-radius: 9999px;
+  color: rgb(37 99 235);
+}

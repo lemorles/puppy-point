@@ -1,0 +1,28 @@
+.datePicker {
+  width: 100%;
+  list-style: none;
+  font-feature-settings: "kern";
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: inherit;
+  margin: 0;
+  text-transform: none;
+  padding: 0;
+  color: inherit;
+  padding-inline-end: 2rem;
+  width: 100%;
+  min-width: 0px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  appearance: none;
+  background: inherit;
+  padding-bottom: 1px;
+  line-height: normal;
+  font-size: 1rem;
+  padding-inline-start: 1rem;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid;
+  border-color: inherit;
+}

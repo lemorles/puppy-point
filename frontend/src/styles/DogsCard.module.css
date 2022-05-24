@@ -1,0 +1,96 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.id {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.flexCard {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameBreed {
+  flex-direction: column;
+  width: 200px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.paginacion {
+  margin-top: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.buttonsSearch {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+  margin: 20px 0;
+}
+
+.card:hover {
+  border-color: rgb(238, 98, 47);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card_button {
+  transform: translate(-50%, 50%);
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .image {
+    margin-top: 5px;
+    margin-right: 0;
+  }
+  .id {
+    flex-direction: row;
+    width: 100%;
+    background-color: #f6ad55;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 2px 0;
+  }
+  .flexCard {
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  .nameBreed {
+    text-align: center;
+  }
+  .filters {
+    flex-direction: column;
+  }
+}

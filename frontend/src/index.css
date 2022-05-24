@@ -1,0 +1,59 @@
+:root {
+  --color-marron: #584053;
+  --color-naranja: #f97b4f;
+  --color-amarillo: #fcbc66;
+  --color-brown: #584053;
+  --color-orange: #f97b4f;
+  --color-yellow: #fcbc66;
+  --color-black: #000000;
+  --bg-yellow-light: rgba(247, 230, 210, 0.592156862745098);
+  --font-family1: "Amatic SC", cursive;
+  --font-family2: "Roboto", sans-serif;
+  --font-weight-bold: 800;
+  --font-weight-normal: 400;
+  --font-weight-extralight: 200;
+}
+
+body,
+p,
+a,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+input,
+nav,
+header,
+p {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.pagination {
+  width: 290px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 3px;
+  margin-bottom: 30px;
+}
+
+.pagination li {
+  background-color: var(--color-brown);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.activeLink {
+  background-color: #dd6b20 !important;
+}

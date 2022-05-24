@@ -1,0 +1,240 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 10px 15px 0px 260px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.titlepage {
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.wrapperWalk {
+  display: flex;
+  padding: 5px 0;
+  overflow-x: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+  gap: 10px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.added {
+  position: absolute;
+  margin-left: 85vw;
+}
+
+.button53 {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid transparent;
+  background-color: #3897f0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 0.5px;
+}
+
+.cnttitle {
+  grid-column: 1 /-1;
+  text-align: center;
+  padding: 10px;
+}
+.cntinput {
+  grid-row: 2/4;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+
+.cntimg {
+  grid-row: 4/6;
+  grid-column: 1/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 95%;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.widimage {
+  width: 100%;
+}
+.cntcalendar {
+  grid-column: 2/-1;
+  grid-row: 2/4;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar {
+  width: 100%;
+  max-width: 516px;
+  height: 100%;
+  max-height: 200px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  text-align: center;
+  font-size: 10px;
+}
+.daybtn {
+  background: none;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.daybtn:hover {
+  background: orangered;
+}
+
+.cntdeleted {
+  grid-column: 2/-1;
+  grid-row: 4/6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.deleted {
+  height: 30px;
+  text-align: start;
+  padding-left: 5px;
+  min-width: 210px;
+  border: 1px solid orangered;
+  margin: 10px 0;
+  position: relative;
+}
+.p {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.btnX {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 25%;
+  border: none;
+  top: 0;
+  right: 0;
+  background: orangered;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  margin: 5px;
+}
+.btnX:hover {
+  cursor: pointer;
+}
+
+.cntbtn {
+  margin-top: -60px;
+  margin-left: 500px;
+}
+
+.btn {
+  text-align: center;
+  width: 20%;
+  max-width: 100px;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  background-color: #3897f0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.inputw {
+  padding: 9px 0px 7px 9px;
+  font-size: 12px;
+  width: 16rem;
+  height: 1.2rem;
+  outline: none;
+  background: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+}
+.textinput {
+  padding: 9px 0px 7px 9px;
+  font-size: 12px;
+  width: 16rem;
+  height: 6rem;
+  outline: none;
+  background: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+  overflow: scroll;
+  resize: none;
+}
+.selecinput {
+  padding: 9px 0px 7px 9px;
+  font-size: 12px;
+  width: 16rem;
+  height: 2rem;
+  background: #fafafa;
+  border-radius: 3px;
+  border: 1px solid #efefef;
+}
+
+.txtalert {
+  color: red;
+  font-size: 10px;
+}
+
+.inputSearch {
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #e2e8f0;
+  width: 100%;
+}
+
+.inputSearch::after,
+.inputSearch::before {
+  border-color: #e2e8f0;
+}
+
+.inputSearch:focus-visible {
+  border-color: #3897f0 !important;
+  text-decoration-color: #3897f0;
+}
+
+.inputSearch[type="search"] {
+  border-color: #3897f0 !important;
+}
+.suggestions {
+  color: #000;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.order1 {
+  background-color: red;
+  border: 1px solid blue;
+}

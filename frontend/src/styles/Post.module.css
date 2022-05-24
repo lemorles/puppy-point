@@ -1,0 +1,194 @@
+/* POSTPAGE.JSX CSS */
+
+.containPostPage {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.containPostInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconPost {
+  width: 50px;
+  height: 50px;
+}
+
+/* .containPostPageCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+} */
+.containPostPageCard {
+  display: grid;
+  padding: 0 20px;
+}
+
+.menuPost {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* POST.JSX CSS  */
+
+/* .containPostCard {
+  display: flex;
+  border: 1px solid var(--color-black);
+  border-radius: 7px;
+  width: 320px;
+  height: 250px;
+} */
+
+.imgPostCard {
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: center;
+  width: 320px;
+  height: 200px;
+}
+
+.infoCard {
+  padding: 0 10px;
+  text-align: end;
+}
+
+.titleCard {
+  float: left;
+}
+
+/* POSTDETAILPAGE.JSX CC */
+
+.containPostDetail {
+  display: flex;
+  padding: 5%;
+}
+
+.containImg {
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 9px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+  text-align: end;
+  background-color: var(--color-yellow);
+}
+
+.textPostDetail {
+  flex-direction: column;
+  padding: 0 40px;
+  align-self: center;
+}
+
+.imgDetail {
+  object-fit: cover;
+  object-position: center;
+  width: 400px;
+  height: 400px;
+}
+
+.subtitleDetail {
+  margin-top: 9px;
+  border-bottom: 1px solid var(--color-black);
+}
+
+.descriptionDetail {
+  margin-top: 9px;
+}
+
+.containButton {
+  display: flex;
+  gap: 10px;
+  margin-top: 7px;
+  justify-content: center;
+}
+
+.editButton,
+.deleteButton {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+/* NEWPOST JSX */
+
+.containFormPost {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.imageFormPost {
+  width: 150px;
+  height: 150px;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.topics {
+  display: grid;
+  padding: 0 20px;
+}
+
+.buttonsSearch {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+  margin: 60px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  .topics {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .containPostPageCard {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .topics {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .containPostPageCard {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .topics {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .containPostPageCard {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
